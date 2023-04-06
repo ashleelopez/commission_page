@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.2),#bbe7fc),url('https://images.unsplash.com/photo-1607787393341-ba37949e1c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    margin: 100px;
+    padding: 10px;
+    border: 5px double white;
+    animation: fadeIn 2s;
+    border-radius: 5px;
+
+}
+
+#divider {
+    border: 2px double white;
+}
+
+.banner-text h2 {
+    font-size: 55px;
+}
+
+.banner-text p {
+    font-size: 40px;
+}
+
+ul {
+    font-size: 30px;
+}
+
+#sidenav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: #071019;
+    right: -250px;
+    top: 0;
+    z-index: 2;
+    transition: 0.5s;
+    animation: fadeIn 2s;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#menubar {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    animation: fadeIn 2s;
+
+}
+
+@media screen and (max-width: 770px) {
+    .banner-text h1 {
+        font-size: 44px;
+    }
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
