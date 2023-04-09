@@ -20,11 +20,11 @@ th {
 td {
     font-size: 25px;
 }
-  td, th {
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
+}
 
 
 .bg {
@@ -104,6 +104,23 @@ nav ul li a {
     .banner-text h1 {
         font-size: 44px;
     }
+    table {
+        border-collapse: collapse;
+        width: 50px;
+      }
+
+    th {
+        font-size: 15px;
+    }
+    td {
+        font-size: 15px;
+    }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 3px;
+    }
+
 
 }
 
