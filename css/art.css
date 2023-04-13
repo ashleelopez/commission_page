@@ -106,13 +106,20 @@ nav ul li a {
         margin: 6px;
         width: 200px;
     }
+    .gallery img:hover {
+        filter: grayscale(100%);
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (max-width: 500px){
-
     .gallery img {
         transition: 1s;
         width: 100%;
+    }
+    .gallery img:hover {
+        filter: grayscale(100%);
+        transform: scale(1.1);
     }
 }
 
