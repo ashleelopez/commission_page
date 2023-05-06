@@ -15,9 +15,7 @@
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    filter: blur(30px);
     position: absolute;
-    z-index: -1;
 }
 
 .title {
