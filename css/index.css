@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
-* {
+*{
     padding: 0;
     margin: 0;
     font-family: 'Amatic SC', cursive;
-    letter-spacing: 2px;
 }
 
-header {
+header{
     height:100vh;
     background: linear-gradient(rgba(0,0,0,0.2),#e5d4fc),url('https://images.unsplash.com/photo-1533066636271-fdbe3e84ad80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
     background-position: center;
@@ -15,13 +14,17 @@ header {
     background-size: cover;
 }
 
-ul {
+ul{
     float: right;
     list-style-type: none;
 }
+.main{
+    max-width: 1200px;
+    margin: auto;
 
+}
 
-.title {
+.title{
     position: absolute;
     top: 50%;
     left: 50%;
