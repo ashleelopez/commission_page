@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.bg {
+.header {
     width: 100vw;
     height:100vh;
     background: linear-gradient(rgba(0,0,0,0.2),#bbe7fc),url('https://images.unsplash.com/photo-1533066636271-fdbe3e84ad80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
