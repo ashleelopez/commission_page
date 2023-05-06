@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 2px;
-    overflow: hidden;
 }
 
 .header {
     height:100vh;
-    background-image: url('');
+    background-image: url('https://wallpapercave.com/wp/wp8928196.png');
     background-position: center;
     background-repeat: none;
     background-size: cover;
