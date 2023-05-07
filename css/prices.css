@@ -28,14 +28,11 @@ td, th {
 
 
 .bg {
-    width: 100vw;
     height:100vh;
-    background: linear-gradient(rgba(0,0,0,0.2),#bbe7fc),url('https://images.unsplash.com/photo-1607787393341-ba37949e1c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background: linear-gradient(rgba(0,0,0,0.2),#e5d4fc),url('https://images.unsplash.com/photo-1533066636271-fdbe3e84ad80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    position: absolute;
-    z-index: -1;
 }
 
 .banner-text {
@@ -50,11 +47,7 @@ td, th {
 
 }
 
-#divider {
-    border: 2px double white;
-}
-
-.banner-text h2 {
+h2 {
     font-size: 55px;
 }
 
@@ -63,12 +56,12 @@ td, th {
     width: 250px;
     height: 100vh;
     position: fixed;
-    background-color: #071019;
+    background-color: #615d4b;
     right: -250px;
     top: 0;
     z-index: 2;
     transition: 0.5s;
-    animation: fadeIn 2s;
+    animation: fadeIn 10s;
 }
 
 nav ul li {
@@ -84,8 +77,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #8aa3bd;
+    color: #efcbb4;
 }
+
 
 #menubar {
     width: 50px;
@@ -100,7 +94,7 @@ nav ul li a:hover {
     cursor: pointer;
     font-size: 30px;
     color: white;
-    animation: fadeIn 2s;
+    animation: fadeIn 10s;
 
 }
 
