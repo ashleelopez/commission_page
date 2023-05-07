@@ -14,7 +14,6 @@ body{
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    text-align: center;
 }
 
 .box{
@@ -37,11 +36,13 @@ body{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
+    text-align: center;
 }
 .box h5{
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 100;
+    text-align: center;
 }
 .box p{
     text-align: justify;
