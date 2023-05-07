@@ -19,28 +19,16 @@ body{
 
 .box{
     background: rgba(0,0,0,0.4);
-    height: 190px;
     width: 450px;
     padding: 40px;
     tex-align: center;
     margin: auto;
     margin-top: 5%;
     color: white;
-    transition: 0.5s;
-
-}
-.box:hover{
-    hegiht: 450px;
 
 }
 .box-img{
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.box-img:hover{
     width: 200px;
     height: 200px;
 }
@@ -49,13 +37,11 @@ body{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
-    text-align: center;
 }
 .box h5{
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 100;
-    text-align: center;
 }
 .box p{
     text-align: justify;
