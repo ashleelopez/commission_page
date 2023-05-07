@@ -19,12 +19,18 @@ body{
 
 .box{
     background: rgba(0,0,0,0.4);
+    height: 190px;
     width: 450px;
     padding: 40px;
     tex-align: center;
     margin: auto;
     margin-top: 5%;
     color: white;
+    transition: 0.5s;
+
+}
+.box:hover{
+    hegiht: 450px;
 
 }
 .box-img{
