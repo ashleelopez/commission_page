@@ -47,6 +47,17 @@ body{
     text-align: justify;
 }
 
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+}
+
 #sidenav {
     width: 250px;
     height: 100vh;
