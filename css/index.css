@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 2px;
+    box-sizing: border-box;
 }
 
 body {
