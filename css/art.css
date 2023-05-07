@@ -8,6 +8,11 @@
     letter-spacing: 2px;
 }
 
+body {
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 
 .container {
     width: 100vw;
