@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Amatic SC', cursive;
-    letter-spacing: 2px;
     overflow: hidden;
 }
 
@@ -27,7 +26,17 @@ body{
     color: white;
 
 }
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
 
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
 #sidenav {
     width: 250px;
     height: 100vh;
@@ -71,19 +80,3 @@ nav ul li a:hover {
     animation: fadeIn 2s;
 
 }
-
-@media screen and (max-width: 770px) {
-    .banner-text h1 {
-        font-size: 44px;
-    }
-
-    ul {
-        font-size: 25px;
-    }
-
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
