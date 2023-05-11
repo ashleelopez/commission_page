@@ -1,81 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 *{
-  font-family: 'Amatic SC', cursive;
-  letter-spacing: 3px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-body {
-  height:100vh;
-    background: linear-gradient(rgba(0,0,0,0.2),#e5d4fc),url('https://images.unsplash.com/photo-1533066636271-fdbe3e84ad80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-}
-/* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
     box-sizing: border-box;
-    resize: vertical;
-  }
+}
 
-  /* Style the label to display next to the inputs */
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
+body{
+    background: #efcbb4;
+    padding: 0px 10px;
+}
 
-  /* Style the submit button */
-  input[type=submit] {
-    background-color: #04AA6D;
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+}
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #efcbb4;
+    text-transform: uppercase;
+    text-align: center;
+}
+.wrapper .form {
+    width: 100%;
+}
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field label{
+    width: 200px;
+    color: grey;
+    margin-right:10px;
+    font-size: 14px;
+
+}
+
+.wrapper .form .input_field .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.wrapper .form .input_field .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+.wrapper .form .input_field .custom_select select{
+    border: 1px solid #d5dbd9;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+
+}
+.wrapper .form .input_field .input:focus,
+.wrapper .form .input_field select:focus{
+    border: 1px solid #efcbb4;
+}
+.wrapper .form .input_field .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #90b094;
     color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
-    float: right;
-  }
+    border-radius: 3px;
+    outline: none;
+}
+.wrapper .form .input_field .btn:hover{
+    background: #b8e3bd;
 
-  /* Style the container */
-  .container {
-    width: 320px;
-    border-radius: 5px;
-    background-color: white;
-    padding: 40px 20px;
+}
+.wrapper .form .input_field:last-child{
+    margin-bottom: 0;
+}
+
+#sidenav {
+    width: 250px;
+    height: 100vh;
     position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
+    background-color: #615d4b;
+    right: -250px;
+    top: 0;
+    z-index: 2;
+    transition: 0.5s;
+    animation: fadeIn 10s;
+}
 
-  /* Floating column for labels: 25% width */
-  .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+    font-size: 20px;
+}
 
-  /* Floating column for inputs: 75% width */
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
+nav ul li a {
+    text-decoration: none;
+    color: white;
 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+}
 
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
+nav ul li a:hover {
+    color: #efcbb4;
+}
+
+
+#menubar {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    animation: fadeIn 10s;
+
+}
+
+@media (max-width: 600px){
+    .wrapper .form .input_field{
+        flex-direction: column;
+        align-items: flex-start;
     }
-  }
+    .wrapper .form .input_field label{
+        margin-bottom: 5px;
+    }
+}
