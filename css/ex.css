@@ -49,7 +49,7 @@ body{
 .wrapper .form .input_field .input{
     width: 100%;
     outline: none;
-    border: 1px solid #efcbb4;
+    border: 1px solid #d5dbd9;
     font-size: 15px;
     padding: 8px 10px;
     border-radius: 3px;
@@ -61,7 +61,7 @@ body{
     height: 37px;
 }
 .wrapper .form .input_field .custom_select select{
-    border: 1px solid #efcbb4;
+    border: 1px solid #d5dbd9;
     appearance: none;
     -webkit-appearance: none;
     width: 100%;
@@ -71,12 +71,9 @@ body{
     outline: none;
 
 }
-.wrapper .form .input_field .custom_select select:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 8px;
-    
+.wrapper .form .input_field .input:focus,
+.wrapper .form .input_field select:focus{
+    border: 1px solid #efcbb4;
+
 
 }
