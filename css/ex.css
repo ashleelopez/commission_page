@@ -80,13 +80,13 @@ body{
     padding: 8px 10px;
     font-size: 15px;
     border: 0;
-    background: #fec107;
+    background: #e0b396;
     color: white;
     cursor: pointer;
     border-radius: 3px;
     outline: none;
 }
-.wrapper .form .input_field .btn{
+.wrapper .form .input_field .btn:hover{
     background: #fd6588;
 
 }
