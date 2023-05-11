@@ -94,7 +94,7 @@ body{
     margin-bottom: 0;
 }
 
-@media (max-width: 420px){
+@media (max-width: 600px){
     .wrapper .form .input_field{
         flex-direction: column;
         align-items: flex-start;
