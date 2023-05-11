@@ -18,6 +18,7 @@
 .gallery img {
     transition: 1s;
     width: 300px;
+    object-fit: cover;
 }
 .gallery img:hover {
     filter: grayscale(100%);
@@ -68,4 +69,16 @@ nav ul li a:hover {
     color: white;
     animation: fadeIn 10s;
 
+}
+
+@media (max-width: 600px)
+{
+    .gallery{
+        margin: 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery img{
+        width: 95%;
+    }
 }
