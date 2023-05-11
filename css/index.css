@@ -108,11 +108,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 600px){
-    .wrapper .form .input_field{
+    .button{
         flex-direction: column;
         align-items: flex-start;
+
     }
-    .wrapper .form .input_field label{
-        margin-bottom: 5px;
-    }
+
 }
