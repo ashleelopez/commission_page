@@ -80,5 +80,6 @@ nav ul li a:hover {
     }
     .gallery img{
         width: 95%;
+        padding: 0.2rem;
     }
 }
