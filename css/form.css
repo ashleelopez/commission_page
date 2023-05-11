@@ -95,16 +95,16 @@ body{
 }
 
 .home {
-    width: 250px;
-    height: 100vh;
     position: fixed;
-    background-color: #615d4b;
-    right: -250px;
     top: 0;
-    z-index: 2;
+    right: 0;
+    margin: 10px;
+}
+.home a{
+    color: #90b094;
 }
 .home a:hover {
-    color: #efcbb4;
+    color: white;
 }
 
 @media (max-width: 600px){
