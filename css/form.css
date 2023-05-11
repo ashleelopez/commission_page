@@ -2,6 +2,7 @@
   font-family: 'Amatic SC', cursive;
   letter-spacing: 3px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
