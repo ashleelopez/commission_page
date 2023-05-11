@@ -74,6 +74,22 @@ body{
 .wrapper .form .input_field .input:focus,
 .wrapper .form .input_field select:focus{
     border: 1px solid #efcbb4;
-
-
+}
+.wrapper .form .input_field .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #fec107;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+.wrapper .form .input_field .btn{
+    background: #ffd6588;
+    
+}
+.wrapper .form .input_field:last-child{
+    margin-bottom: 0;
 }
