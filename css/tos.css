@@ -13,11 +13,22 @@ body{
     padding: 0px 10px;
 }
 
+.container{
+    background: white;
+    width: 450px;
+    padding: 40px;
+    tex-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    height: 90vh;
+}
+
 .title{
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
-    color: white;
+    color: #efcbb4;
     text-transform: uppercase;
     text-align: center;
 }
