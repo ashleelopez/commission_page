@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #efcbb4;
+    padding: 0px 10px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 15px;
+}
+.home a{
+    color: #90b094;
+}
+.home a:hover {
+    color: white;
+}
