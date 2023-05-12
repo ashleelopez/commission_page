@@ -63,7 +63,6 @@ h2 {
     top: 0;
     z-index: 2;
     transition: 0.5s;
-    animation: fadeIn 10s;
 }
 
 nav ul li {
@@ -96,7 +95,6 @@ nav ul li a:hover {
     cursor: pointer;
     font-size: 30px;
     color: white;
-    animation: fadeIn 10s;
 
 }
 
