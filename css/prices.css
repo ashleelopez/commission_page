@@ -97,11 +97,8 @@ nav ul li a:hover {
     color: white;
 
 }
-Fix table when on movile
-@media screen and (max-width: 770px) {
-    .banner-text h1 {
-        font-size: 44px;
-    }
+Fix table when on mobile
+@media screen and (max-width: 600px) {
     table {
         border-collapse: collapse;
         width: 50px;
