@@ -100,12 +100,8 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    .container{
-        overflow: auto;
-    }
     th{
-        letter-spacing: 1px;
-        font-size: 20px;
+        display: none;
     }
     table, tr, td{
         display: block;
