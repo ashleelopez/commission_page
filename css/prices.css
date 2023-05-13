@@ -100,11 +100,11 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    .table, .table tr, .table td{
+    table, tr, td{
         display: block;
         width: 100%;
       }
-      .table tr{
+      tr{
         margin-bottom: 15px;
       }
       .table td{
