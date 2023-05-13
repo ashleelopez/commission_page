@@ -104,6 +104,14 @@ nav ul li a:hover {
         display: block;
         width: 100%;
       }
+      .table tr{
+        margin-bottom: 15px;
+      }
+      .table td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+      }
 
 }
 
