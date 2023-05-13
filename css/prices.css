@@ -6,7 +6,6 @@
     margin: 0;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
-    overflow: hidden;
 }
 body{
     height:100vh;
@@ -100,9 +99,6 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    table{
-        overflow-y: scroll;
-    }
     th{
         display: none;
     }
