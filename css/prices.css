@@ -111,6 +111,10 @@ nav ul li a:hover {
       tr{
         margin-bottom: 15px;
       }
+      td::before{
+        content: attr(data-heading) ":";
+        font-weight: bold;
+      }
 
 }
 
