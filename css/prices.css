@@ -23,7 +23,7 @@ body{
     background-color: white;
     border: 5px double #90b094;
     border-radius: 5px;
-    color: #b8e3bd;
+    color: white;
 
 
 }
@@ -42,7 +42,7 @@ table {
 
 th {
     font-size: 35px;
-    background-color: #efcbb4;
+    background-color: #b8e3bd;
 }
 td {
     font-size: 25px;
