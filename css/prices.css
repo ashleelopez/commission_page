@@ -101,7 +101,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 600px) {
     table{
-        overflow: auto;
+        overflow-y: scroll;
     }
     th{
         display: none;
