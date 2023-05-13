@@ -23,7 +23,6 @@ body{
     background-color: white;
     border: 5px double #90b094;
     border-radius: 5px;
-    color: white;
 
 
 }
@@ -43,6 +42,7 @@ table {
 th {
     font-size: 35px;
     background-color: #b8e3bd;
+    color: white;
 }
 td {
     font-size: 25px;
