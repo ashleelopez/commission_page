@@ -101,22 +101,9 @@ nav ul li a:hover {
 
 @media screen and (max-width: 600px) {
     .table, .table tr, .table td{
-        border-collapse: collapse;
-        width: 50px;
+        display: block;
+        width: 100%;
       }
-
-    th {
-        font-size: 20px;
-    }
-    td {
-        font-size: 15px;
-    }
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 3px;
-    }
-
 
 }
 
