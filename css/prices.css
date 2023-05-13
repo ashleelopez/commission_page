@@ -8,12 +8,11 @@
     letter-spacing: 3px;
     overflow: hidden;
 }
-body{
-    text-align: center;
-}
+
 table {
     border-collapse: collapse;
     width: 100%;
+
   }
 
 th {
@@ -23,7 +22,7 @@ td {
     font-size: 25px;
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #b8e3bd;
     text-align: left;
     padding: 8px;
 }
@@ -41,10 +40,10 @@ body{
     text-align: center;
     margin: 100px;
     padding: 10px;
-    border: 5px double white;
-    animation: fadeIn 2s;
+    background-color: white;
+    border: 5px double #efcbb4;
     border-radius: 5px;
-    color: white;
+    color: #efcbb4;
 
 
 }
