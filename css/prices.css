@@ -8,26 +8,6 @@
     letter-spacing: 3px;
     overflow: hidden;
 }
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-
-  }
-
-th {
-    font-size: 35px;
-}
-td {
-    font-size: 25px;
-}
-td, th {
-    border: 1px solid #b8e3bd;
-    text-align: left;
-    padding: 8px;
-}
-
-
 body{
     height:100vh;
     background: linear-gradient(rgba(0,0,0,0.2),#e5d4fc),url('https://images.unsplash.com/photo-1533066636271-fdbe3e84ad80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
@@ -52,6 +32,26 @@ h2 {
     font-size: 55px;
 }
 
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+
+th {
+    font-size: 35px;
+    background-color: #efcbb4;
+}
+td {
+    font-size: 25px;
+}
+td, th {
+    border: 1px solid #b8e3bd;
+    text-align: left;
+    padding: 8px;
+}
 
 #sidenav {
     width: 250px;
